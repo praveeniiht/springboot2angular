@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": "2",
+      "title": "Jenkins",
+      "author": "Kumar"
+    },
+    {
+      "id": "89",
+      "title": "MySqL",
+      "author": "Sameer"
+    },
+    {
+      "id": "91",
+      "title": "Ngnix",
+      "author": "Karan"
+    },
+    {
+      "id": "100",
+      "title": "DevOps",
+      "author": "Samuel"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

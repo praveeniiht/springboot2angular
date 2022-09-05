@@ -1,0 +1,16 @@
+<table border="1">
+<tr>
+    <td>Enter Post id</td>
+    <td><input type="text" [(ngModel)]="tid"></td>
+</tr>
+<tr>
+    <td>Enter Post Title</td>
+    <td><input type="text" [(ngModel)]="ttitle"></td>
+</tr>
+<tr>
+    <td>Enter Post Author</td>
+    <td><input type="text" [(ngModel)]="tauthor"></td>
+</tr>
+
+</table>
+<button type="submit" (click)="insertData()" >Insert Data </button>

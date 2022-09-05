@@ -1,0 +1,13 @@
+
+
+Enter the post id to search <input type="text" [(ngModel)]="tid" >
+<button type="submit" (click) = "searchData()">Search Data</button>
+
+<table border =1 >
+    <tr>
+        <td>{{posts.pid}}</td>
+        <td>{{posts.title}}</td>
+        <td>{{posts.author}}</td>
+       
+    </tr>
+    </table>
